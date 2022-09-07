@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header class="header">
+        <source />
+        <img src="images/Vector.png" alt="logo" />
+      </header>
+      <div class="contenido">
+        <h3>Ingrese texto aquí</h3>
+        <textarea id="mensaje"></textarea>
+        <div class="warning">
+          <div>
+            <img src="images/Vector (1).png" alt="" /><span
+              >Sólo letras minúsculas y sin acento</span
+            >
+          </div>
+        </div>
+      </div>
+      <aside class="sidebar" >
+        <p id="muestra"></p>
+        <div class="widget-3">
+        <button class="btn-desencript" onclick="copiar()">
+          Copiar
+        </button>
+      </div>
+      </aside>
+
+      <div class="widget-1">
+        <button class="btn-encript" id="encriptar" onclick="encriptar()">
+          Encriptar
+        </button>
+      </div>
+      <div class="widget-2">
+        <button class="btn-desencript" onclick="desencriptar()">
+          Desencriptar
+        </button>
+      </div>
+    </div>
+    <footer>
+      <div class="foot">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/reynaldoquispesoca/"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/REYNALDOz?tab=repositories">Github</a>
+          </li>
+          <li>
+            <p style="color: aliceblue">👋Reynaldo👋</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="encrypte.js"></script>
+</html>
