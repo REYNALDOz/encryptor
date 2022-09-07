@@ -86,7 +86,6 @@ h3 {
 }
 
 .widget-3{
-  
   padding-top: 700px;
   display: flex;
   align-items: center;
@@ -112,14 +111,17 @@ h3 {
   border-radius: 24px;
 }
 
+
+
 .warning {
+  
   font-size: 12px;
   text-align: start;
   padding-left: 20px;
 }
 
 img {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-right: 20px;
 }
 
